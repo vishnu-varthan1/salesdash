@@ -4,7 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Virtual Environment
+# Virtual environments
 venv/
 .env/
 
@@ -18,7 +18,14 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Data / outputs (optional)
-# Uncomment if you don't want to push generated data
+# Logs
+*.log
+
+# Data files (optional)
+# Uncomment if needed
 # data/*.csv
 # visuals/*.png
+
+# Model files
+*.pkl
+*.joblib
